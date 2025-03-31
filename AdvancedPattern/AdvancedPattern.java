@@ -1,4 +1,3 @@
-package AdvancedPattern;
 
 public class AdvancedPattern {
     public static void main(String[] args) {
