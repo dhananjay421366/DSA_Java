@@ -8,7 +8,7 @@ public class BinaryToDecimal {
             decNum = decNum + (lastDigit * (int) Math.pow(2, pow));
 
             pow++;
-            n = n / 10;
+            n = n / 10; // Remove Last Digit
         }
         System.out.println("binary to decimal :" + decNum);
     }

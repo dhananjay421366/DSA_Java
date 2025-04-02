@@ -10,7 +10,7 @@ public class DecimalToBinary {
             binum = binum + (rem * (int) Math.pow(10, pow));
 
             pow++;
-            n = n / 2;
+            n = n / 2; // Remove Last Digit
         }
         System.out.println(binum);
     }

@@ -5,7 +5,7 @@ public class Palindrome {
         while (temp != 0) {
             int lastDigit = temp % 10;
             reverseNo = reverseNo * 10 + lastDigit;
-            temp = temp / 10;
+            temp = temp / 10;  // Remove Last Digit
 
         }
         if (n == reverseNo) {
