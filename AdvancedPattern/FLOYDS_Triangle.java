@@ -6,9 +6,7 @@ public class FLOYDS_Triangle {
                 System.out.print(counter + " ");
                 counter++;
             }
-            for (int k = n; k > i; k--) {
-                System.out.print(" ");
-            }
+           
             System.out.println();
         }
     }
