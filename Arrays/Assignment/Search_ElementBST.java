@@ -1,5 +1,4 @@
 
-import java.util.Arrays;
 
 public class Search_ElementBST {
     public static int Search_ElementBST(int nums[], int key) {
@@ -37,7 +36,7 @@ public class Search_ElementBST {
     }
 
     public static void main(String[] args) {
-        int nums[] = { 4, 5, 6, 7, 0, 1, 2 }, target = 3;
+        int nums[] = { 4, 5, 6, 7, 0, 1, 2 }, target = 2;
         System.out.println(Search_ElementBST(nums, target));
 
     }
